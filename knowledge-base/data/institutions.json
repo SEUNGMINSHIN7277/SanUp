@@ -1,0 +1,31 @@
+{
+  "note": "제14회(2026) 산업통상부 공공데이터 활용 아이디어 공모전 공모요강 원문 기준 주관기관 20개(산업통상부 포함). 2026-07-02 기준.",
+  "source": "제14회 산업통상부 공공데이터 활용 아이디어 공모전 공모요강 + datacontest.kr 공공데이터 목록 페이지",
+  "institutions": [
+    { "name": "산업통상부", "abbr": "MOTIE", "role": "주최" },
+    { "name": "한국산업기술시험원", "abbr": "KTL", "role": "대표 주관기관" },
+    { "name": "강원랜드", "abbr": "KANGWON LAND", "role": "주관기관" },
+    { "name": "대한무역투자진흥공사", "abbr": "KOTRA", "role": "주관기관" },
+    { "name": "무역안보관리원", "abbr": "KOSTI", "role": "주관기관" },
+    { "name": "한국가스공사", "abbr": "KOGAS", "role": "주관기관" },
+    { "name": "한국가스기술공사", "abbr": "KOGAS-Tech", "role": "주관기관" },
+    { "name": "한국가스안전공사", "abbr": "KGS", "role": "주관기관" },
+    { "name": "한국광해광업공단", "abbr": "KOMIR", "role": "주관기관" },
+    { "name": "한국디자인진흥원", "abbr": "KIDP", "role": "주관기관" },
+    { "name": "한국로봇산업진흥원", "abbr": "KIRIA", "role": "주관기관" },
+    { "name": "한국무역보험공사", "abbr": "K-SURE", "role": "주관기관" },
+    { "name": "한국석유공사", "abbr": "KNOC", "role": "주관기관" },
+    { "name": "한국석유관리원", "abbr": "KPETRO", "role": "주관기관" },
+    { "name": "한국세라믹기술원", "abbr": "KICET", "role": "주관기관" },
+    { "name": "한국산업기술기획평가원", "abbr": "KEIT", "role": "주관기관" },
+    { "name": "한국산업기술진흥원", "abbr": "KIAT", "role": "주관기관" },
+    { "name": "한국산업단지공단", "abbr": "KICOX", "role": "주관기관" },
+    { "name": "한국제품안전관리원", "abbr": "KPSA", "role": "주관기관" },
+    { "name": "한국탄소산업진흥원", "abbr": "KOCARBON", "role": "주관기관" }
+  ],
+  "non_organizer_but_rule_eligible_examples": [
+    "한국전력공사(KEPCO) - 산업통상자원부 산하 공기업, 13회 수상작 다수가 실제 활용",
+    "한국전력거래소(KPX) - 전력시장 운영기관",
+    "한국에너지공단(KEA) - 에너지 통계·신재생에너지 데이터"
+  ]
+}

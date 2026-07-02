@@ -1,0 +1,168 @@
+{
+  "note": "산업통상부 공모전 지식그래프 — 기관/수상작/테마/기술/심사기준을 잇는 노드-엣지 그래프. 04-지식그래프.md의 Mermaid 다이어그램과 1:1 대응하는 기계 판독용 데이터.",
+  "generated_from": ["01-공모전-공식규정.md", "03-수상작-데이터베이스.json", "knowledge-base/data/institutions.json"],
+  "nodes": [
+    { "id": "inst:산업통상부", "type": "institution", "label": "산업통상부", "organizer_14th": true, "used_in_2025_winners": true },
+    { "id": "inst:한국산업기술시험원", "type": "institution", "label": "한국산업기술시험원(KTL)", "organizer_14th": true, "used_in_2025_winners": false, "note": "훈련자료 예시(아이디어4: 해외인증정보)에는 등장하나 실제 수상작 없음" },
+    { "id": "inst:강원랜드", "type": "institution", "label": "강원랜드", "organizer_14th": true, "used_in_2025_winners": false },
+    { "id": "inst:대한무역투자진흥공사", "type": "institution", "label": "대한무역투자진흥공사(KOTRA)", "organizer_14th": true, "used_in_2025_winners": true },
+    { "id": "inst:무역안보관리원", "type": "institution", "label": "무역안보관리원", "organizer_14th": true, "used_in_2025_winners": false },
+    { "id": "inst:한국가스공사", "type": "institution", "label": "한국가스공사(KOGAS)", "organizer_14th": true, "used_in_2025_winners": false },
+    { "id": "inst:한국가스기술공사", "type": "institution", "label": "한국가스기술공사", "organizer_14th": true, "used_in_2025_winners": false },
+    { "id": "inst:한국가스안전공사", "type": "institution", "label": "한국가스안전공사", "organizer_14th": true, "used_in_2025_winners": false },
+    { "id": "inst:한국광해광업공단", "type": "institution", "label": "한국광해광업공단(KOMIR)", "organizer_14th": true, "used_in_2025_winners": true },
+    { "id": "inst:한국디자인진흥원", "type": "institution", "label": "한국디자인진흥원(KIDP)", "organizer_14th": true, "used_in_2025_winners": false },
+    { "id": "inst:한국로봇산업진흥원", "type": "institution", "label": "한국로봇산업진흥원(KIRIA)", "organizer_14th": true, "used_in_2025_winners": false },
+    { "id": "inst:한국무역보험공사", "type": "institution", "label": "한국무역보험공사(K-SURE)", "organizer_14th": true, "used_in_2025_winners": false },
+    { "id": "inst:한국석유공사", "type": "institution", "label": "한국석유공사(KNOC)", "organizer_14th": true, "used_in_2025_winners": false },
+    { "id": "inst:한국석유관리원", "type": "institution", "label": "한국석유관리원", "organizer_14th": true, "used_in_2025_winners": false },
+    { "id": "inst:한국세라믹기술원", "type": "institution", "label": "한국세라믹기술원(KICET)", "organizer_14th": true, "used_in_2025_winners": false },
+    { "id": "inst:한국산업기술기획평가원", "type": "institution", "label": "한국산업기술기획평가원(KEIT)", "organizer_14th": true, "used_in_2025_winners": false },
+    { "id": "inst:한국산업기술진흥원", "type": "institution", "label": "한국산업기술진흥원(KIAT)", "organizer_14th": true, "used_in_2025_winners": false },
+    { "id": "inst:한국산업단지공단", "type": "institution", "label": "한국산업단지공단(KICOX)", "organizer_14th": true, "used_in_2025_winners": "partial", "note": "공업용수/산업단지현황 통계가 '산업통상자원부' 명의로 여러 수상작에 사용 — 실제 소관은 KICOX일 가능성" },
+    { "id": "inst:한국제품안전관리원", "type": "institution", "label": "한국제품안전관리원", "organizer_14th": true, "used_in_2025_winners": true },
+    { "id": "inst:한국탄소산업진흥원", "type": "institution", "label": "한국탄소산업진흥원", "organizer_14th": true, "used_in_2025_winners": false },
+    { "id": "inst:한국전력공사", "type": "institution", "label": "한국전력공사(KEPCO)", "organizer_14th": false, "used_in_2025_winners": true, "note": "14회 주관기관 목록엔 없으나 산업통상자원부 산하 공기업이라 규정상(산하 공공기관 포함) 데이터 활용 가능. 2025 수상작 최다 인용 기관." },
+    { "id": "inst:한국전력거래소", "type": "institution", "label": "한국전력거래소(KPX)", "organizer_14th": false, "used_in_2025_winners": true },
+    { "id": "inst:환경부", "type": "institution", "label": "환경부(외부부처)", "organizer_14th": false, "used_in_2025_winners": true, "note": "산업통상부 산하 아님 — 연계 데이터로만 사용됨" },
+    { "id": "inst:한국지질자원연구원", "type": "institution", "label": "한국지질자원연구원(외부)", "organizer_14th": false, "used_in_2025_winners": true },
+
+    { "id": "theme:trade", "type": "theme", "label": "무역·수출입/통관" },
+    { "id": "theme:renewable_forecast", "type": "theme", "label": "재생에너지 발전량예측" },
+    { "id": "theme:energy_dr", "type": "theme", "label": "에너지 절약/수요관리(DR)" },
+    { "id": "theme:carbon_esg", "type": "theme", "label": "탄소배출권/ESG" },
+    { "id": "theme:product_safety", "type": "theme", "label": "제품안전/인증/리콜" },
+    { "id": "theme:supply_chain", "type": "theme", "label": "공급망/밸류체인/원자재" },
+    { "id": "theme:data_meta", "type": "theme", "label": "공공데이터 메타탐색/지식그래프" },
+    { "id": "theme:disaster_safety", "type": "theme", "label": "산불/재난안전" },
+    { "id": "theme:weather_bias", "type": "theme", "label": "기상예측 오차보정" },
+    { "id": "theme:vpp", "type": "theme", "label": "VPP 운영" },
+    { "id": "theme:mineral_risk", "type": "theme", "label": "핵심광물 수급리스크" },
+    { "id": "theme:industrial_water", "type": "theme", "label": "산업용수/인프라관리" },
+    { "id": "theme:air_regulation", "type": "theme", "label": "환경규제/대기오염" },
+    { "id": "theme:regional_vitality", "type": "theme", "label": "지역활력 (14회 신규 강조 테마)", "note": "13회엔 없던 키워드 — 14회 주제에 신규 등장" },
+
+    { "id": "tech:agentic_ai", "type": "technique", "label": "에이전틱 AI(자율 실행 에이전트)" },
+    { "id": "tech:llm_rag", "type": "technique", "label": "LLM/RAG" },
+    { "id": "tech:knowledge_graph", "type": "technique", "label": "지식그래프" },
+    { "id": "tech:genai_chatbot", "type": "technique", "label": "생성형 AI 챗봇" },
+    { "id": "tech:time_series", "type": "technique", "label": "시계열예측(LSTM/XGBoost/LightGBM/Prophet/SVR/MoE/앙상블)" },
+    { "id": "tech:optimization_sim", "type": "technique", "label": "최적화/시뮬레이션" },
+    { "id": "tech:computer_vision", "type": "technique", "label": "컴퓨터비전/스캐닝" },
+    { "id": "tech:recommendation", "type": "technique", "label": "추천시스템" },
+    { "id": "tech:realtime_dashboard", "type": "technique", "label": "실시간 대시보드/모니터링" },
+    { "id": "tech:iot_sensor", "type": "technique", "label": "IoT 센서연계" },
+
+    { "id": "criterion:1st_creativity", "type": "criterion", "label": "1차 창의성(25)" },
+    { "id": "criterion:1st_concreteness", "type": "criterion", "label": "1차 구체성(25)" },
+    { "id": "criterion:1st_growth", "type": "criterion", "label": "1차 발전가능성(30)" },
+    { "id": "criterion:1st_problem_solving", "type": "criterion", "label": "1차 문제해결가능성(20)" },
+    { "id": "criterion:1st_ai_bonus", "type": "criterion", "label": "1차 AI활용확산성 가산(+5)" },
+    { "id": "criterion:2nd_creativity", "type": "criterion", "label": "2차 창의성(15)" },
+    { "id": "criterion:2nd_concreteness", "type": "criterion", "label": "2차 구체성(30)" },
+    { "id": "criterion:2nd_commercialization", "type": "criterion", "label": "2차 사업화가능성(30)" },
+    { "id": "criterion:2nd_problem_solving", "type": "criterion", "label": "2차 문제해결가능성(25)" },
+    { "id": "criterion:2nd_ai_bonus", "type": "criterion", "label": "2차 AI활용확산성 가산(+5)" }
+  ],
+  "edges": [
+    { "source": "inst:대한무역투자진흥공사", "target": "e01", "relation": "provides_data_for" },
+    { "source": "e01", "target": "theme:trade", "relation": "addresses" },
+    { "source": "e01", "target": "tech:agentic_ai", "relation": "employs" },
+
+    { "source": "inst:한국전력거래소", "target": "e02", "relation": "provides_data_for" },
+    { "source": "e02", "target": "theme:renewable_forecast", "relation": "addresses" },
+    { "source": "e02", "target": "theme:carbon_esg", "relation": "addresses" },
+    { "source": "e02", "target": "tech:time_series", "relation": "employs" },
+    { "source": "e02", "target": "tech:optimization_sim", "relation": "employs" },
+
+    { "source": "inst:한국전력공사", "target": "e03", "relation": "provides_data_for" },
+    { "source": "e03", "target": "theme:disaster_safety", "relation": "addresses" },
+    { "source": "e03", "target": "tech:iot_sensor", "relation": "employs" },
+
+    { "source": "inst:한국전력공사", "target": "e04", "relation": "provides_data_for" },
+    { "source": "inst:환경부", "target": "e04", "relation": "provides_data_for" },
+    { "source": "e04", "target": "theme:energy_dr", "relation": "addresses" },
+    { "source": "e04", "target": "tech:genai_chatbot", "relation": "employs" },
+
+    { "source": "inst:산업통상부", "target": "e05", "relation": "provides_data_for" },
+    { "source": "e05", "target": "theme:energy_dr", "relation": "addresses" },
+    { "source": "e05", "target": "tech:agentic_ai", "relation": "employs" },
+
+    { "source": "inst:산업통상부", "target": "e06", "relation": "provides_data_for" },
+    { "source": "e06", "target": "theme:trade", "relation": "addresses" },
+    { "source": "e06", "target": "tech:computer_vision", "relation": "employs" },
+
+    { "source": "inst:한국제품안전관리원", "target": "e07", "relation": "provides_data_for" },
+    { "source": "e07", "target": "theme:energy_dr", "relation": "addresses" },
+
+    { "source": "inst:산업통상부", "target": "e08", "relation": "provides_data_for" },
+    { "source": "e08", "target": "theme:data_meta", "relation": "addresses" },
+    { "source": "e08", "target": "tech:knowledge_graph", "relation": "employs" },
+    { "source": "e08", "target": "tech:llm_rag", "relation": "employs" },
+    { "source": "e08", "target": "criterion:1st_growth", "relation": "scored_strong_on" },
+    { "source": "e08", "target": "criterion:2nd_concreteness", "relation": "scored_strong_on" },
+
+    { "source": "inst:산업통상부", "target": "e09", "relation": "provides_data_for" },
+    { "source": "e09", "target": "theme:supply_chain", "relation": "addresses" },
+    { "source": "e09", "target": "tech:recommendation", "relation": "employs" },
+    { "source": "e09", "target": "criterion:2nd_commercialization", "relation": "scored_strong_on" },
+
+    { "source": "inst:한국전력공사", "target": "e10", "relation": "provides_data_for" },
+    { "source": "e10", "target": "theme:renewable_forecast", "relation": "addresses" },
+    { "source": "e10", "target": "tech:optimization_sim", "relation": "employs" },
+
+    { "source": "inst:한국전력공사", "target": "e11", "relation": "provides_data_for" },
+    { "source": "e11", "target": "theme:carbon_esg", "relation": "addresses" },
+    { "source": "e11", "target": "tech:realtime_dashboard", "relation": "employs" },
+
+    { "source": "inst:산업통상부", "target": "e12", "relation": "provides_data_for" },
+    { "source": "e12", "target": "theme:data_meta", "relation": "addresses" },
+    { "source": "e12", "target": "tech:llm_rag", "relation": "employs" },
+
+    { "source": "inst:산업통상부", "target": "e13", "relation": "provides_data_for" },
+    { "source": "e13", "target": "theme:industrial_water", "relation": "addresses" },
+    { "source": "e13", "target": "tech:time_series", "relation": "employs" },
+
+    { "source": "inst:한국제품안전관리원", "target": "e14", "relation": "provides_data_for" },
+    { "source": "e14", "target": "theme:product_safety", "relation": "addresses" },
+    { "source": "e14", "target": "tech:recommendation", "relation": "employs" },
+
+    { "source": "inst:한국지질자원연구원", "target": "e15", "relation": "provides_data_for" },
+    { "source": "e15", "target": "theme:weather_bias", "relation": "addresses" },
+    { "source": "e15", "target": "tech:time_series", "relation": "employs" },
+    { "source": "e15", "target": "criterion:1st_problem_solving", "relation": "scored_strong_on" },
+
+    { "source": "e16", "target": "theme:vpp", "relation": "addresses" },
+    { "source": "e16", "target": "theme:renewable_forecast", "relation": "addresses" },
+    { "source": "e16", "target": "tech:time_series", "relation": "employs" },
+    { "source": "e16", "target": "criterion:1st_creativity", "relation": "scored_strong_on" },
+
+    { "source": "e17", "target": "theme:vpp", "relation": "addresses" },
+    { "source": "e17", "target": "tech:time_series", "relation": "employs" },
+
+    { "source": "inst:한국광해광업공단", "target": "e18", "relation": "provides_data_for" },
+    { "source": "e18", "target": "theme:mineral_risk", "relation": "addresses" },
+    { "source": "e18", "target": "tech:llm_rag", "relation": "employs" },
+
+    { "source": "e19", "target": "theme:weather_bias", "relation": "addresses" },
+    { "source": "e19", "target": "tech:time_series", "relation": "employs" },
+
+    { "source": "e20", "target": "theme:weather_bias", "relation": "addresses" },
+    { "source": "e20", "target": "tech:time_series", "relation": "employs" },
+
+    { "source": "e21", "target": "theme:air_regulation", "relation": "addresses" },
+    { "source": "e21", "target": "tech:time_series", "relation": "employs" },
+
+    { "source": "theme:renewable_forecast", "target": "tech:time_series", "relation": "commonly_paired_with", "weight": 6 },
+    { "source": "theme:weather_bias", "target": "tech:time_series", "relation": "commonly_paired_with", "weight": 4 },
+    { "source": "theme:data_meta", "target": "tech:llm_rag", "relation": "commonly_paired_with", "weight": 2 },
+    { "source": "theme:product_safety", "target": "inst:한국제품안전관리원", "relation": "commonly_paired_with", "weight": 2 },
+    { "source": "theme:trade", "target": "inst:대한무역투자진흥공사", "relation": "commonly_paired_with", "weight": 1 }
+  ],
+  "blue_ocean_institutions": [
+    "inst:강원랜드", "inst:무역안보관리원", "inst:한국가스공사", "inst:한국가스기술공사",
+    "inst:한국가스안전공사", "inst:한국디자인진흥원", "inst:한국로봇산업진흥원", "inst:한국무역보험공사",
+    "inst:한국석유공사", "inst:한국석유관리원", "inst:한국세라믹기술원", "inst:한국산업기술기획평가원",
+    "inst:한국산업기술진흥원", "inst:한국탄소산업진흥원", "inst:한국산업기술시험원"
+  ]
+}

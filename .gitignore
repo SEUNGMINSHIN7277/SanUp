@@ -1,0 +1,7 @@
+.env
+.env.local
+knowledge-base/data/odcloud/
+__pycache__/
+*.pyc
+.DS_Store
+node_modules/
